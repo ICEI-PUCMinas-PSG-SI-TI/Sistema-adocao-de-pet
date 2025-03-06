@@ -2,33 +2,18 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Contexto.md"> Documentação de Contexto</a></span>
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+> Neste documento estão contidas, as informações analizadas através de pesquisas online, para as nossas personas, histórias de usuários, nossos requisitos funcionais e não funcionais e também as restrições do projeto.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em
-se desenvolver profissionalmente através de um mestrado fora do país,
-pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está
-buscando uma agência que o ajude a encontrar universidades na Europa
-que aceitem alunos estrangeiros.
+Ana Souza tem 38 anos, é Fundadora e administradora de uma ONG de resgate animal. Tem experiência no setor, mas enfrenta dificuldades com a superlotação do abrigo e a burocracia da adoção. Ana precisa de uma plataforma intuitiva para gerenciar animais e seus históricos clínicos, fazer um controle eficiente de vagas e do fluxo de adoções e encontrar ajuda de de voluntários e lares temporários.
 
+Carlos Mendes tem 25 anos, trabalha em horário comercial e ajuda a ONG nos finais de semana. Quer acompanhar melhor a situação dos animais e saber como pode contribuir. Ele quer ter acesso rápido às tarefas e horários disponíveis, saber quais animais precisam de atenção especial e registrar atividades e atualizações sobre os pets.
 
-> Enumere e detalhe as personas da sua solução. Para
-> tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-> Lembre-se que você deve ser enumerar e descrever precisamente e
-> personalizada todos os clientes ideais que sua solução almeja.
+Julia Ferreira tem 30 anos, sempre quis adotar um pet, mas não sabe onde encontrar informações confiáveis e sente que o processo pode ser complicado. Julia gostaria de receber recomendações de animais compatíveis com seu estilo de vida, acompanhar o processo de adoção de forma simples e transparente e também ter acesso a informações detalhadas sobre os pets disponíveis.
+
+Ricardo Nunes tem 45 anos, resgata animais de rua, mas não tem estrutura para manter todos. Busca lares temporários ou ONGs que possam acolher os pets. Ricardo é interessado em ter um meio rápido para encontrar lares temporários disponíveis que tenha um cadastro simples e acesso à fila de abrigamento e também contato direto com ONGs para facilitar resgates.
+
 
 ## Histórias de Usuários
 
@@ -36,19 +21,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Gestora de ONG  | Cadastrar novos animais no sistema   | Ter controle sobre suas condições de saúde, histórico e status de adoção.  |
+|Voluntário      | Visualizar minha escala de trabalho e as tarefas disponíveis  | Contribuir de forma mais eficiente. |
+|Adotante       | Visualizar os animais disponíveis e receber sugestões personalizadas com base no meu estilo de vida | Adotar um animal.
+|Protetor independente | Cadastrar um animal resgatado e verificar se há lares temporários disponíveis para acolhê-lo. | Auxiliar no meu trabalho.
+|Gestor de Clínica   | Um painel de controle que me permita ver rapidamente a ocupação do abrigo e priorizar adoções urgentes. | Gerir melhor o processo de adoção
+|Adotante   | Acompanhar o andamento da minha solicitação de adoção. | Saber em que etapa do processo estou.
+|Gestor de ONG | Registrar os tratamentos veterinários dos animais.  | Manter o histórico atualizado.
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
@@ -56,36 +36,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID        | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
+|RF-002| O sistema deve oferecer um módulo para gerenciamento da fila do abrigo, mostrando vagas disponíveis e organizando a entrada de novos animais. |  ALTA | 
+|RF-003| O sistema deve permitir que adotantes se cadastrem e recebam sugestões de pets compatíveis com seu perfil. | ALTA
+|RF-004| O sistema deve possibilitar o registro de tratamentos veterinários, vacinas e histórico médico dos animais. | ALTA
+|RF-005| O sistema deve oferecer um painel administrativo para a gestão da ONG, incluindo controle de voluntários, lares temporários e recursos. | MÉDIA
+|RF-006| O sistema deve permitir que protetores independentes cadastrem animais resgatados e encontrem lares temporários disponíveis. | MÉDIA
+|RF-007| O sistema deve gerar relatórios sobre adoções, quantidade de animais no abrigo e status dos tratamentos veterinários. | MÉDIA
+|RF-008| O sistema deve permitir que adotantes acompanhem o processo de adoção e recebam atualizações. | ALTA
+|RF-009| O sistema deve disponibilizar um chat ou canal de comunicação entre adotantes, voluntários e gestores da ONG. | MÉDIA
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID       | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RNF-001| O sistema deve ser responsivo e acessível em dispositivos móveis e desktops. | ALTA | 
+|RNF-002| O sistema deve garantir a segurança dos dados dos usuários, adotando criptografia para informações sensíveis. | BAIXA
+|RNF-003| O tempo de resposta das principais funcionalidades não deve ultrapassar 2 segundos. | MÉDIA
+|RNF-004| O sistema deve estar disponível 99% do tempo, garantindo estabilidade para ONGs e usuários. | MÉDIA
+|RNF-005| O sistema deve ser intuitivo e fácil de usar, seguindo princípios de UX/UI para facilitar a adoção por diferentes perfis de usuários. | ALTA
+|RNF-006| O sistema deve permitir integração com serviços externos, como Google Maps (para localização de ONGs) e plataformas de pagamento (para doações). | BAIXA
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais
->   (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais
->   (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -93,13 +67,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O sistema deve ser desenvolvido utilizando tecnologias acessíveis e de fácil manutenção para a equipe da ONG. |
+|02| O orçamento para desenvolvimento e manutenção do sistema deve ser considerado, buscando soluções gratuitas ou de baixo custo sempre que possível.        |
+|03| O sistema deve seguir regulamentações de proteção de dados, garantindo conformidade com a LGPD (Lei Geral de Proteção de Dados). |
+|04| O sistema deve ser escalável para atender um número crescente de usuários conforme novas ONGs adotem a solução. |
+|05| O sistema deve oferecer suporte a múltiplos usuários simultâneos sem degradação de desempenho. |
 
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
