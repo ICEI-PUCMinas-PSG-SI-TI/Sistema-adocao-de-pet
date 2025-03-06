@@ -1,32 +1,27 @@
 # Introdução
 
 ## Problema
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
+> O projeto visa desenvolver um sistema para auxiliar ONGs de resgate e adoção de animais, otimizando a gestão do abrigo, agilizando o processo de adoção e garantindo o bem-estar dos animais. O sistema permitirá o controle de vacinas, vermifugação, tratamento clínico, alimentação e rotina dos voluntários. Além disso, incluirá um módulo de lares temporários, facilitando o acolhimento de novos resgates quando a ONG estiver lotada.
 >
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
 >
 > **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> - [Índice de abandono no Brasil](https://institutomvc.org.br/site/index.php/2024/04/04/indice-de-abandono-no-brasil/)
+> - [Reflexão sobre abrigos](https://institutomvc.org.br/site/index.php/2022/06/27/reflexoes-sobre-os-abrigos-de-animais-como-estrategia-de-mpcg/)
+> - [Abandono de animais](https://www.blogcostashow.com.br/curiosidades/animais-abandonados-uma-triste-realidade)
 
 ## Objetivos
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
+#### Objetivo Geral
+> Com uma preocupação na banalização de animais abandonados e também na condição de vida que os mesmos vivem instalados em abrigos com condições de vida nem sempre agradáveis, sujeitos a infecções e doençãos, o projeto visa ajudar a conscientizar a população e também auxiliar abrigos nos cuidados gerais para garantir uma vida decente a cada animal abandonado.
 > 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+#### Objetivo Específico
+> O objetivo deste projeto é criar um sistema para ongs e clínicas veterinárias que facilite seu dia-a-dia nas tarefas de:
+> - Gestão de filas do abrigo quando estiver lotado
+> - Agilidade no processo de adoção
+> - Controle de vacinas, tratamento e alimentação
+> - Gerenciamento de volutários e recursos
+> - Cadastro de lares temporários
+>
+> 
 
 ## Justificativa
 
@@ -39,23 +34,21 @@
 > dados estatísticos, que podem ser apresentados, com o objetivo de
 > esclarecer detalhes do problema que será abordado pelo grupo.
 >
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+> 
 
 ## Público-Alvo
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
+> O público-alvo do sistema é bem diversificado e inclui diferentes perfis que se beneficiarão da plataforma:
+
+- ONGs e clínicas veterinárias – São as principais beneficiadas, pois poderão organizar melhor a fila de abrigamento, gerenciar adoções de forma mais eficiente, manter registros atualizados sobre saúde e alimentação dos animais e coordenar o trabalho dos voluntários.
+
+- Voluntários e funcionários dos abrigos – O sistema facilitará a rotina desses profissionais, permitindo um acompanhamento mais organizado dos animais sob seus cuidados, controle de tratamentos e vacinas, além de otimizar a comunicação interna.
+
+- Pessoas interessadas em adoção – Facilitaremos o acesso a informações sobre os pets disponíveis, utilizando filtros e sugestões personalizadas para conectar adotantes ao animal ideal para seu perfil.
+
+- Lares temporários – Algumas pessoas não podem adotar permanentemente, mas podem acolher animais temporariamente até que encontrem um lar definitivo. O sistema ajudará a conectar esses lares com ONGs que precisam de espaço para novos resgates.
+
+- Comunidade em geral – O projeto também pode incentivar a adoção responsável, promover a conscientização sobre cuidados com animais e engajar a sociedade em iniciativas de proteção animal.
 > 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
  
