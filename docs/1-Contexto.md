@@ -13,7 +13,7 @@
 #### Objetivo Geral
 > Com uma preocupação na banalização de animais abandonados e também na condição de vida que os mesmos vivem instalados em abrigos com condições de vida nem sempre agradáveis, sujeitos a infecções e doençãos, o projeto visa ajudar a conscientizar a população e também auxiliar abrigos nos cuidados gerais para garantir uma vida decente a cada animal abandonado.
 > 
-#### Objetivo Específico
+#### Objetivos Específicos
 > O objetivo deste projeto é criar um sistema para ongs e clínicas veterinárias que facilite seu dia-a-dia nas tarefas de:
 > - Gestão de filas do abrigo quando estiver lotado
 > - Agilidade no processo de adoção
