@@ -53,7 +53,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID       | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RNF-001| O sistema deve ser responsivo e acessível em dispositivos móveis e desktops. | ALTA | 
+|RNF-001| O sistema deve ser responsivo e acessível em dispositivos móveis e desktops. | BAIXA | 
 |RNF-002| O sistema deve garantir a segurança dos dados dos usuários, adotando criptografia para informações sensíveis. | BAIXA
 |RNF-003| O tempo de resposta das principais funcionalidades não deve ultrapassar 2 segundos. | MÉDIA
 |RNF-004| O sistema deve estar disponível 99% do tempo, garantindo estabilidade para ONGs e usuários. | MÉDIA
