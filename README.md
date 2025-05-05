@@ -10,10 +10,14 @@ Trabalho Interdisciplinar - Aplicacões Web
 ## Participantes
 
 Os membros do grupo são: 
-- Fulano da Silva
-- Ciclano Albuquerque
+- Adelton Perez
+- Adrielly Rayssa da Silva Lima
+- Arthur Lacorte e Silva
+- Guilherme de Souza Coelho
+- Gustavo Henrique marçal Cravo
+- Heloisa Oliveira Timóteo
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
+
 
 # Estrutura do Projeto
 
