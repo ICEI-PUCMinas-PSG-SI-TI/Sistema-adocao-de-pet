@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-Trabalho Interdisciplinar - Aplicacões Web
+Fundamentos de Sistema de Informação
 
-`CURSO`
+`Sistemas de Informação`
 
-`SEMESTRE`
+`2º SEMESTRE`
 
 ## Participantes
 
